@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit common ProtonPlus OS  Stuff.
-$(call inherit-product, $(CUSTOM_PRODUCT_DIR)/config/common.mk)
+$(call inherit-product, $(CUSTOM_PRODUCT_DIR)/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 PRODUCT_NAME := aosp_sweet
