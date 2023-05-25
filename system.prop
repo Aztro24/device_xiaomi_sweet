@@ -66,8 +66,6 @@ debug.cpurend.vsync=false
 # Recovery
 ro.recovery.ui.margin_height=48
 
-# Priv-app permissions whitelist
-ro.control_privapp_permissions=log
 
 # WiFi
 wifi.interface=wlan0
