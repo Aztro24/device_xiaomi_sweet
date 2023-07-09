@@ -390,7 +390,7 @@ PRODUCT_PACKAGES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-voltage
+    $(LOCAL_PATH)/overlay-proton
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
@@ -399,7 +399,8 @@ PRODUCT_PACKAGES += \
     SettingsOverlayRR \
     SweetinproSettingsProvider \
     SweetinproWifiOverlay \
-    SweetWifiOverlay
+    SweetWifiOverlay \
+    MaintainerOverlaySweet
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
