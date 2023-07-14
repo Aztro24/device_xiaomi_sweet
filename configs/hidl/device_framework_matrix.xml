@@ -108,20 +108,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>android.hardware.graphics.allocator</name>
-        <interface>
-            <name>IAllocator</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>android.hardware.graphics.composer3</name>
-        <interface>
-            <name>IComposer</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>android.hardware.net.nlinterceptor</name>
         <interface>
             <name>IInterceptor</name>
@@ -139,6 +125,15 @@
         <name>android.hardware.health</name>
         <interface>
             <name>IHealth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.qti.hardware.display.allocator</name>
+        <version>3.0</version>
+        <version>4.0</version>
+        <interface>
+            <name>IQtiAllocator</name>
             <instance>default</instance>
         </interface>
     </hal>
