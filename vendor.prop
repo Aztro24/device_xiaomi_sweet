@@ -84,6 +84,12 @@ ro.vendor.audio.us.type=mius
 persist.vendor.audio.voicecall.speaker.stereo=true
 vendor.audio.feature.compr_voip.enable=false
 vendor.voice.path.for.pcm.voip=false
+ro.vendor.audio.spk.stereo=true
+ro.vendor.audio.surround.support=true
+ro.vendor.audio.scenario.support=true
+ro.vendor.audio.sfx.scenario=true
+ro.vendor.audio.soundtrigger=xiaomi
+ro.vendor.audio.soundtrigger.lowpower=false
 
 # Bluetooth
 bluetooth.hardware.power.operating_voltage_mv=3300
